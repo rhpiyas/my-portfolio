@@ -550,6 +550,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .hero img {
@@ -568,6 +569,15 @@ section,
   position: absolute;
   inset: 0;
   z-index: 2;
+
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,.75) 0%,
+    rgba(0,0,0,.55) 30%,
+    rgba(0,0,0,.25) 55%,
+    rgba(0,0,0,0) 80%
+  );
+
 }
 
 .hero .container {
