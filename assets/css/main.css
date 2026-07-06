@@ -1283,3 +1283,13 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# My addition
+--------------------------------------------------------------*/
+
+.typeSkillData{
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
