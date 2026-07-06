@@ -1297,3 +1297,10 @@ section,
 .container{
   margin-left: 10px;
 }
+
+.codeforces {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px; 
+}
