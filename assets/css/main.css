@@ -1304,3 +1304,7 @@ section,
     position: relative;
     top: 5px; 
 }
+
+.plus::after{
+    content: " +";
+}
