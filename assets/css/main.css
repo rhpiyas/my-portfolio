@@ -1308,3 +1308,7 @@ section,
 .plus::after{
     content: " +";
 }
+
+.langPiyas{
+  padding-bottom: 15px;
+}
