@@ -812,8 +812,6 @@ section,
 
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
-  border-color:rgba(129, 194, 255, 0.075);
-  box-shadow: 0 0 5px rgba(129, 194, 255, 0.272);
   color: var(--accent-color);
 }
 
@@ -1315,9 +1313,3 @@ section,
   padding-bottom: 15px;
 }
 
-.proj{
-  padding: 20px;
-  border: 1px rgb(208, 208, 208, 0.0) solid;
-  border-radius: 3px;
-  border-spacing: 3px;
-}
