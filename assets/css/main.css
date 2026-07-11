@@ -1313,3 +1313,45 @@ section,
   padding-bottom: 15px;
 }
 
+/*--------------------------------------------------------------
+# Achievements Section
+--------------------------------------------------------------*/
+.achievements .achievement-item {
+  background-color: var(--surface-color, #fff);
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.achievements .achievement-item:hover {
+  transform: translateY(-5px);
+}
+
+.achievements .achievement-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.achievements .achievement-item .achievement-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.achievements .achievement-item .achievement-info h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.achievements .achievement-item .achievement-info p {
+  font-size: 14px;
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.achievements {
+  background-color: #a8abfb29;
+}
