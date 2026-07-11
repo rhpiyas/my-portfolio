@@ -833,10 +833,12 @@ section,
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-content .portfolio-info {
