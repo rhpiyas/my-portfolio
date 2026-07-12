@@ -221,3 +221,24 @@
 
 })();
 
+// Dark theme 
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleBtn = document.getElementById('theme-toggle');
+  const body = document.body;
+
+  // Page load hobar somoy shathe shathe check kora hocche user age dark mode select korechilo kina
+  if (localStorage.getItem('theme') === 'dark') {
+    body.classList.add('dark-mode');
+  }
+
+  toggleBtn.addEventListener('click', function () {
+    body.classList.toggle('dark-mode');
+    const isDark = body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+    // icon change (optional, jodi FontAwesome use koren)
+    toggleBtn.innerHTML = isDark
+      ? '<i class="bi bi-sun"></i>'
+      : '<i class="bi bi-moon-stars"></i>';
+  });
+});
