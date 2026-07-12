@@ -1364,3 +1364,47 @@ section,
   padding-bottom: 15px;
 }
 
+/*--------------------------------------------------------------
+# Dark button
+--------------------------------------------------------------*/
+
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  width: 48px;
+  height: 48px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #149ddd;
+  color: #fff;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  z-index: 99999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: .3s;
+}
+
+#theme-toggle:hover {
+  background: #0d83c2;
+  transform: scale(1.08);
+}
+
+@media (min-width: 1200px) {
+  #theme-toggle {
+    right: 30px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Dark apply
+--------------------------------------------------------------*/
