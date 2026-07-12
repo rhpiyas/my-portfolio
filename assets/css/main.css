@@ -857,7 +857,6 @@ section,
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
 }
 
 .portfolio .portfolio-content .portfolio-info p {
