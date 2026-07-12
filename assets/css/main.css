@@ -1288,35 +1288,6 @@ section,
 }
 
 /*--------------------------------------------------------------
-# My addition
---------------------------------------------------------------*/
-
-.typeSkillData{
-  font-family: monospace;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.container{
-  margin-left: 10px;
-}
-
-.codeforces {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 5px; 
-}
-
-.plus::after{
-    content: " +";
-}
-
-.langPiyas{
-  padding-bottom: 15px;
-}
-
-/*--------------------------------------------------------------
 # Achievements Section
 --------------------------------------------------------------*/
 .achievements .achievement-item {
@@ -1358,3 +1329,38 @@ section,
 .achievements {
   background-color: #a8abfb29;
 }
+
+/*--------------------------------------------------------------
+# Achievements Section
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# My addition
+--------------------------------------------------------------*/
+
+.typeSkillData{
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.container{
+  margin-left: 10px;
+}
+
+.codeforces {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px; 
+}
+
+.plus::after{
+    content: " +";
+}
+
+.langPiyas{
+  padding-bottom: 15px;
+}
+
