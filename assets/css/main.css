@@ -1331,38 +1331,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Achievements Section
+# Ends Achievements Section
 --------------------------------------------------------------*/
 
-
-/*--------------------------------------------------------------
-# My addition
---------------------------------------------------------------*/
-
-.typeSkillData{
-  font-family: monospace;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.container{
-  margin-left: 10px;
-}
-
-.codeforces {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 5px; 
-}
-
-.plus::after{
-    content: " +";
-}
-
-.langPiyas{
-  padding-bottom: 15px;
-}
 
 /*--------------------------------------------------------------
 # Dark button
@@ -1455,3 +1426,32 @@ button[type="submit"]:active {
 }
 
 /* send message button  */
+
+/*--------------------------------------------------------------
+# My addition
+--------------------------------------------------------------*/
+
+.typeSkillData{
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.container{
+  margin-left: 10px;
+}
+
+.codeforces {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px; 
+}
+
+.plus::after{
+    content: " +";
+}
+
+.langPiyas{
+  padding-bottom: 15px;
+}
