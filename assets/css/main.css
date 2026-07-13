@@ -1408,7 +1408,7 @@ button[type="submit"] {
   color: #fff;
   border: none;
   padding: 12px 20px;
-  border-radius: 20px;
+  border-radius: 15px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -1455,3 +1455,8 @@ button[type="submit"]:active {
 .langPiyas{
   padding-bottom: 15px;
 }
+
+.imgcus{
+  border-radius: 7px;
+}
+
