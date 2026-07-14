@@ -1464,3 +1464,14 @@ button[type="submit"]:active {
   border-radius: 7px;
 }
 
+.tech{
+  background-color:rgba(142, 216, 245, 0.175);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.techContent{
+  font-family: monospace;
+}
