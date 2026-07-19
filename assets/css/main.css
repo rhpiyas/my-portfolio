@@ -64,6 +64,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  overflow-x: hidden;
 }
 
 a {
@@ -1439,10 +1440,6 @@ button[type="submit"]:active {
   font-family: monospace;
   text-transform: uppercase;
   letter-spacing: 5px;
-}
-
-.container{
-  margin-left: 10px;
 }
 
 .codeforces {
