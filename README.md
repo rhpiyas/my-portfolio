@@ -67,8 +67,7 @@ python3 -m http.server 5500
 Then open:
 
 ```text
-http://localhost:5500  
-https://rhpiyas.vercel.app/
+http://localhost:5500
 ```
 
 You can also use the VS Code Live Server extension.
